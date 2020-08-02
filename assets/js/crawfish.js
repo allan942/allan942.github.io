@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	// jQuery Function Number 1
 	$("#home").hide();
 	$("#crawfish").hide();
 	$("#shrimp").hide();
@@ -8,7 +7,6 @@ $(document).ready(function(){
 	$("#about2").hide();
 	/*$(".circle").hide();*/
 
-	// jQuery Function Number 2
 	setTimeout(
     	function(){
         	$("#home").fadeTo(1000, .6);
@@ -38,7 +36,6 @@ $(document).ready(function(){
         	$(".circle").fadeIn(1500);
     }, 11000);*/
 
-    // jQuery Function Number 3
     $("#home").hover(
     	function() {
     		$("#home").fadeTo(50, 1);
@@ -61,7 +58,6 @@ $(document).ready(function(){
     	}
     );
 
-    // jQuery Function Number 6
     // a bit ineffictient, but it works and I need the function lol
     $("#crawfish-pic").css("animation", "fadeInBackground 2s ease-in .5s");
     $("#crawfish-pic").css("animation-fill-mode", "forwards");

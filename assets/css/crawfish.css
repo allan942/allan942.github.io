@@ -118,28 +118,3 @@ h1 {
 .num:hover {
     opacity: .6;
 }
-
-/* thanks to stack overflow */
-/*.circle {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    margin: 28% 77%;
-}
-
-.image-swap {
-    background-repeat: no-repeat;
-    background-image: url("cupboard.jpg");
-    background-size: cover;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    transform: none;
-    transition: transform .5s, background-image .5s;
-}
-
-.circle:hover .image-swap {
-    background: url("dead.jpg");
-    background-size: cover;
-    transform: rotateZ(180deg);
-}*/

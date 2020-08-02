@@ -65,59 +65,60 @@ body {
 }
 
 /* actual page */
-.main {
-    margin-top: 15%;
-}
-
-h1 {
-    margin: 0px 0px;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 42px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: #B311DE;
-}
-
-#name {
-    margin-left: 54%;
+.contentContainer {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 #profile-pic {
-    position: absolute;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-left: 34%;
     opacity: 1;
     transition: .25s;
+    margin-right: 50px;
 }
 
 #profile-pic:hover {
     opacity: .8;
 }
 
-#line {
-    position: absolute;
-    border-left: 3px solid black;
-    height: 200px;
-    margin-left: 50%;
+.textContainer {
+    text-align: left;
+    max-width: 500px;
+    line-height: 1.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#about {
-    position: absolute;
-    margin-left: 54%;
-    margin-top: .3%;
-    font-size: 21px;
-    font-family: 'Gaegu', cursive;
-    border: 0px solid;
-    width: 330px;
+h2 {
+    margin: 0px 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
-#birds {
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
     display: inline;
     transition: .25s;
 }
 
-#birds:hover {
+a:hover {
     opacity: .6;
 }
